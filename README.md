@@ -3,48 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sistema de Estacionamento Inteligente</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background: #f7f7f7;
-      color: #333;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    pre {
-      background: #2d2d2d;
-      color: #f8f8f2;
-      padding: 10px;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    code {
-      background: #ecf0f1;
-      padding: 2px 5px;
-      border-radius: 4px;
-    }
-    ul {
-      margin-left: 20px;
-    }
-    .box {
-      background: #fff;
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <h1>Sistema de Estacionamento Inteligente</h1>
+  
 </head>
 <body>
 
@@ -111,48 +71,12 @@
   <div class="box">
     <h3>Pré-requisitos</h3>
     <p><a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.NET 6 SDK</a> ou superior instalado</p>
-
-    <h3>Passos</h3>
-    <pre>
+    
 git clone https://github.com/seu-usuario/sistema-estacionamento.git
 cd sistema-estacionamento
 
 dotnet build
 dotnet run
-    </pre>
-  </div>
-
-  <h2>📖 Exemplo de uso</h2>
-  <div class="box">
-    <h3>Menu principal</h3>
-    <pre>
-==== SISTEMA DE ESTACIONAMENTO ====
-1 - Cadastrar veículo
-2 - Remover veículo
-3 - Listar veículos estacionados
-4 - Listar histórico
-5 - Encerrar
-Escolha:
-    </pre>
-
-    <h3>Cadastro de veículo</h3>
-    <pre>
-Digite a placa do veículo:
-ABC-1234
-Digite o tipo do veículo (Luxo, SUV, Popular, Moto, Caminhao):
-SUV
-Digite a quilometragem atual do veículo:
-54210
-Veículo ABC-1234 (SUV) adicionado às 14/08/2025 15:32:10
-    </pre>
-
-    <h3>Remoção de veículo</h3>
-    <pre>
-Digite a placa do veículo para remover:
-ABC-1234
-Veículo ABC-1234 removido. Tempo: 2h. Valor a pagar: R$ 40
-    </pre>
-  </div>
 
   <h2>🚀 Melhorias futuras</h2>
   <div class="box">
@@ -167,10 +91,10 @@ Veículo ABC-1234 removido. Tempo: 2h. Valor a pagar: R$ 40
 
   <h2>👨‍💻 Autor</h2>
   <div class="box">
-    <p>Desenvolvido por <b>Seu Nome</b> 🚀</p>
+    <p>Desenvolvido por <b>Alisson Guilherme Gonçalves Ramos</b> 🚀</p>
     <ul>
-      <li>LinkedIn: <a href="https://linkedin.com/in/seu-usuario">seu-linkedin</a></li>
-      <li>GitHub: <a href="https://github.com/seu-usuario">seu-usuario</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/alisson-ramos-6b137b2b8" target="_blank">Conecte-se comigo no LinkedIn 🚀</a></li>
+      <li>GitHub: <a href="https://github.com/AlissonGGR" target="_blank">Confira meus projetos no GitHub 💻</a></li>
     </ul>
   </div>
 
